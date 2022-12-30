@@ -13,7 +13,7 @@ class CardSwiper extends StatelessWidget {
       return Container(
         width: double.infinity,
         height: sized.height * 0.5,
-        child: Center(
+        child: const Center(
           child: CircularProgressIndicator(),
         ),
       );
